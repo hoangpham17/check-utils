@@ -1,0 +1,33 @@
+{
+  "name": "check-utils",
+  "version": "1.0.0",
+  "description": "A utility library for checking empty values, null, numbers, NaN, empty strings, and arrays.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utils",
+    "validation",
+    "isEmpty",
+    "isNull",
+    "isNumber",
+    "isArray",
+    "isNaN"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoangpham17/check-utils.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
