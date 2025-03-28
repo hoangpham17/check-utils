@@ -1,7 +1,7 @@
 {
-  "name": "check-utils",
+  "name": "checkify-utils",
   "version": "1.0.0",
-  "description": "A utility library for checking empty values, null, numbers, NaN, empty strings, and arrays.",
+  "description": "A lightweight utility library for common JavaScript checks, including isEmpty, isNull, isNumber, isEmptyString, isArray, and isNaN. Useful for validation and data handling.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -21,7 +21,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoangpham17/check-utils.git"
+    "url": "git+https://github.com/hoangpham17/checkify-utils.git"
   },
   "devDependencies": {
     "@types/node": "^22.13.14",
